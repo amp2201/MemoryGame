@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Memory Game!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  
+  <body>
+    
+    <h1>Light and Sound Memory Game</h1>
+    
+    <p>
+      Repeat the pattern back to win the game! The pattern is randomly generated and the game speeds up each round. You have 15 seconds to complete each round. Once the timer runs out or you make 3 mistakes, you lose. Good luck!
+    </p>
+    
+    <!-- start and stop buttons -->
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+    <button class="hidden" id="stopBtn" onclick="stopGame()">
+      Stop
+    </button>
+    
+    <!-- game buttons and their images-->
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone(1)"><img id="img1" class="hideImg" src="https://cdn.glitch.com/d66e3d5c-a639-47a8-b23d-572dfaf176b1%2Fkiwi.png?v=1616615810802" alt="kiwi" width="100"></button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone(2)"><img id="img2" class="hideImg" src="https://cdn.glitch.com/d66e3d5c-a639-47a8-b23d-572dfaf176b1%2Fblueberry.png?v=1616615809784" alt="blueberry" width="100"></button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone(3)"><img id="img3" class="hideImg" src="https://cdn.glitch.com/d66e3d5c-a639-47a8-b23d-572dfaf176b1%2Fapple.png?v=1616615810271" alt="apple" width="125" ></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone(4)"><img id="img4" class="hideImg" src="https://cdn.glitch.com/d66e3d5c-a639-47a8-b23d-572dfaf176b1%2Fbanana.png?v=1616615810144" alt="banana" width="100"></button>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone(5)"><img id="img5" class="hideImg" src="https://cdn.glitch.com/d66e3d5c-a639-47a8-b23d-572dfaf176b1%2Forange.png?v=1616615810218" alt="orange" width="100"></button>
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone(6)"><img id="img6" class="hideImg" src="https://cdn.glitch.com/d66e3d5c-a639-47a8-b23d-572dfaf176b1%2Fgrapes.png?v=1616615809912" alt="grapes" width="180"></button>
+    </div>
+    
+    <!-- mistake counter and timer -->
+    <div id="infoArea">
+      <p id="mistakes">
+          Mistakes: 0
+      </p>
+      <p id="time">
+        Timer: 15
+      </p>
+    </div>
+    
+  </body>
+</html>
