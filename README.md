@@ -41,6 +41,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 Here is an example of the player winning the game:
+
 ![](https://cdn.glitch.com/d66e3d5c-a639-47a8-b23d-572dfaf176b1%2FMemoryGame1.gif?v=1616636456220)
 
 Here is an example of the player using the start and stop buttons:
