@@ -38,20 +38,11 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
-
-Here is an example of the player winning the game:
+This is what it looks like when the player wins the game!
 
 ![](https://cdn.glitch.com/d66e3d5c-a639-47a8-b23d-572dfaf176b1%2FMemoryGame1.gif?v=1616636456220)
 
-Here is an example of the player using the start and stop buttons:
-![](https://cdn.glitch.com/d66e3d5c-a639-47a8-b23d-572dfaf176b1%2FMemoryGame4.gif?v=1616636483398)
 
-Here is an example of the player losing after making 3 mistakes:
-![](https://cdn.glitch.com/d66e3d5c-a639-47a8-b23d-572dfaf176b1%2FMemoryGame2.gif?v=1616636464811)
-
-Here is an example of the player losing by letting the timer run out:
-![](https://cdn.glitch.com/d66e3d5c-a639-47a8-b23d-572dfaf176b1%2FMemoryGame3.gif?v=1616636473231)
 
 ## License
 
